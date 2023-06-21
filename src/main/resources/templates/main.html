@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>학생 이력서 작성</title>
+</head>
+<body>
+<h1>학생 이력서 작성</h1>
+
+<form action="result" method="post" enctype="multipart/form-data">
+
+    <label for="name">이름</label>
+    <input type="text" id="name" name="name" required><br><br><br>
+
+    <label for="age">나이</label>
+    <input type="text" id="age" name="age" required><br><br><br>
+
+    <label for="phone">전화번호</label>
+    <input type="text" id="phone" name="phone" required><br><br><br>
+
+    <label for="university">대학교</label>
+    <input type="text" id="university" name="university" required><br><br><br>
+
+    <label for="residence">거주지</label>
+    <input type="text" id="residence" name="residence" required><br><br><br>
+
+    <label for="detail">상세 사항</label>
+    <textarea id="detail" name="detail" required></textarea><br><br><br>
+    사진 : <input type="file" name="photo"><br>
+
+    <div class="form-group">
+        <input type="submit" value="제출">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>결과 창</title>
+</head>
+<body>
+
+<h1>이력서 등록이 완료 되었습니다.</h1><br><br>
+
+<h2>이 정보로 등록되었습니다</h2>
+<h3 th:text="|이름 : ${student.name }|"></h3>
+<h3 th:text="|나이: ${student.age }|"></h3>
+<h3 th:text="|전화번호 : ${student.phone }|"></h3>
+<h3 th:text="|대학교 : ${student.university }|"></h3>
+<h3 th:text="|거주지 : ${student.residence }|"></h3>
+</body>
+</html>
